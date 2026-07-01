@@ -1,0 +1,59 @@
+canonical_identifier: bkk:krp/KR6w0031/v1
+canonical_location: https://kanripo.org/bkk/KR6w0031/v1
+canonical_set:
+  identifier: bkk:charset/cjk-v1
+  hash: sha256:7cf5854f9b7b99617990762b56ca5289dd34e1992baf324bb7716157d9a4b2ee
+metadata:
+  title: 唐三藏法師唯識量質疑錄
+  source:
+    repository: cbeta
+    path: /home/chris/src/xml-p5/D/D31/D31n8890.xml
+    old_id: D31n8890
+  edition:
+    short: bkk
+editions:
+- short: 國圖
+  label: 國圖
+  source_xml_id: wit.orig
+- short: D
+assets:
+  parts:
+  - {seq: 0, filename: KR6w0031_000.yaml, hash: 'sha256:f640a0a5c170986887bbc7dbc24f42bef31a84109b83bfb210b82ea3aac65de4'}
+  - {seq: 1, filename: KR6w0031_001.yaml, hash: 'sha256:ce61d1dccf4a36ac7146e96225d90542def068450382606b830af1df25a8827f'}
+  markers:
+  - {seq: 1, role: markers, filename: assets/KR6w0031_001.markers.yaml, hash: 'sha256:4a0f8beedb27a7b3f0dbae86d343ce642b96004835d1f7e1ec5691f4a7989b5c'}
+table_of_contents:
+- ref:
+    seq: 1
+    marker_id: KR6w0031_D_001-juan-start
+    span:
+    - body
+    - 0
+    - 9429
+  label: 唐三藏法師唯識量質疑錄
+  type: juan
+  level: 1
+- ref:
+    seq: 1
+    marker_id: KR6w0031_D_001-mulu-1
+    span:
+    - body
+    - 10
+    - 10
+  label: 質疑
+  type: mulu
+  level: 1
+- ref:
+    seq: 1
+    marker_id: KR6w0031_D_001-mulu-2
+    span:
+    - body
+    - 5424
+    - 5424
+  label: 私解
+  type: mulu
+  level: 1
+hash: sha256:78162a4c503258dd5b7e7113b95ee97b407e36b844e598918b2e40e1f381ffa4
+mappings:
+- canonical_identifier: bkk:mapping/variant-fold-v1
+  hash: sha256:366e8ec95655b72d3205b878dc416602f82ff8a6b5dd240168f5ee5a7c65a61e

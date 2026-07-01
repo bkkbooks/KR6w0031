@@ -1,0 +1,58 @@
+canonical_identifier: bkk:krp/KR6w0031/D/v1
+canonical_location: https://kanripo.org/bkk/KR6w0031/D/v1
+canonical_set:
+  identifier: bkk:charset/cjk-v1
+  hash: sha256:0000000000000000000000000000000000000000000000000000000000000000
+metadata:
+  title: 唐三藏法師唯識量質疑錄
+  identifiers:
+    krp: KR6w0031
+    cbeta: D31n8890
+    cbeta_old_id: D31n8890
+    authorityid: CA0008030
+    json_key: D8890
+  source:
+    repository: cbeta
+    path: /home/chris/src/xml-p5/D/D31/D31n8890.xml
+    old_id: D31n8890
+  edition:
+    short: D
+assets:
+  parts:
+  - {seq: 0, filename: KR6w0031_000-D.yaml, hash: 'sha256:f640a0a5c170986887bbc7dbc24f42bef31a84109b83bfb210b82ea3aac65de4'}
+  - {seq: 1, filename: KR6w0031_001-D.yaml, hash: 'sha256:3d8b8e0b5b7f796630caca4110fc4975bbaf27f6a51a480cc2bff5a0f4413a16'}
+  markers:
+  - {seq: 0, role: markers, filename: assets/KR6w0031_000-D.markers.yaml, hash: 'sha256:a95f79c379506c42c4c663c0044d1c4fd4dac345c59a7c238a039a8b442a6a48'}
+  - {seq: 1, role: markers, filename: assets/KR6w0031_001-D.markers.yaml, hash: 'sha256:b89b55ad05e3fe50a788203cdf2132870332907e86702d9f4dfeaec99ea3bf2e'}
+table_of_contents:
+- ref:
+    seq: 1
+    marker_id: KR6w0031_D_001-juan-start
+    span:
+    - body
+    - 0
+    - 9429
+  label: 唐三藏法師唯識量質疑錄
+  type: juan
+  level: 1
+- ref:
+    seq: 1
+    marker_id: KR6w0031_D_001-mulu-1
+    span:
+    - body
+    - 10
+    - 10
+  label: 質疑
+  type: mulu
+  level: 1
+- ref:
+    seq: 1
+    marker_id: KR6w0031_D_001-mulu-2
+    span:
+    - body
+    - 5424
+    - 5424
+  label: 私解
+  type: mulu
+  level: 1
+hash: sha256:13d009bacf3bb38ec71ca31dcc409601d5c5ce7e1c416aff902c3e1d05be9e67
